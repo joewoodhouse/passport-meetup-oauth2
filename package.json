@@ -1,0 +1,20 @@
+{
+  "name": "passport-meetup-oauth2",
+  "version": "0.0.2",
+  "description": "Meetup OAuth2 authentication strategy for Passport.",
+  "keywords": ["meetup", "passport", "auth", "authentication"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/joewoodhouse/passport-meetup-oauth2.git"
+  },
+  "main": "lib/passport-meetup-oauth2/index.js",
+  "author": {
+    "name": "Joe Woodhouse",
+    "email": "joewoodhouse30@gmail.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "passport-oauth2": "^1.1.2",
+    "pkginfo": "~0.3.0"
+  }
+}
