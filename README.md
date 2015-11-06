@@ -19,6 +19,7 @@ account and OAuth 2.0 tokens.  The strategy requires a `verify` callback, which
 accepts these credentials and calls `done` providing a user, as well as
 `options` specifying a app ID, app secret, and callback URL.
 
+    var MeetupStrategy = require('passport-meetup-oauth2').Strategy;
     passport.use(new MeetupStrategy({
         clientID: MEETUP_KEY,
         clientSecret: MEETUP_SECRET,
